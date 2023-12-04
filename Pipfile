@@ -15,6 +15,7 @@ cuda-python = "*"
 torchvision = "*"
 torchaudio = "*"
 scipy = "*"
+pyarrow = "*"
 
 [dev-packages]
 ipykernel = "*"
