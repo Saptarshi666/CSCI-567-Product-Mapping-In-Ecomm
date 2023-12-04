@@ -1,2 +1,6 @@
+images/*
+*.txt*
+old/*
+*.parquet
 .idea/*
 .DS_Store
