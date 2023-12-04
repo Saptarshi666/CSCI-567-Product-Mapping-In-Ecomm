@@ -3,6 +3,12 @@ Download en-cs.txt, images,english_words.txt, processed.parquet from https://dri
 Set up the folders like:
 ![alt text](https://github.com/shubhamdarekar/567PROJECT/blob/main/FileStructure.png?raw=true)
 
+Set up the environment - 
+
+ - pip install pipenv
+ - pipenv install
+ - pipenv shell
+
 # CSML-Product-Mapping-Dataset
 
 
