@@ -102,6 +102,12 @@ Before beginning with feature engineering, cross verify the folder and file plac
 * [Evaluation.ipynb](Evaluation.ipynb): Python code
 * Transfer learning capabilities were tested by selecting the optimal model of ProMapEn and evaluating it on all other datasets
 
+| Test Dataset   |  F1 Score  | Precision |      Recall |  
+|----------------|:----------:|----------:|------------:|
+| ProMapEn       |   0.6593   |    0.7407 |      0.5941 |
+| ProMapCz       |   0.5836   |    0.4717 |      0.7653 |
+| Amazon Walmart |   0.5350   |    0.9767 |      0.3684 |
+| Amazon Google  |   0.5604   |    1.0000 |      0.3893 |
 
 ## 7. Credits
 * Thank you, Prof Dani Yogatama, TAs, CPs for guidance and feedback
