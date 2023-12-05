@@ -57,7 +57,6 @@ Before beginning with feature engineering, cross verify the folder and file plac
 │   │   ├── test
 │   │   └── train
 │   └── readme_imgs
-│       └── FileStructure.png
 ├── paracrawl.py
 └── results
     ├── ProMapEn
@@ -67,7 +66,27 @@ Before beginning with feature engineering, cross verify the folder and file plac
 
 
 ## 4. Feature Engineering
-* insert
+
+#### 4.1 Image Processing
+* [Feature-Engineering-Part-1.ipynb](Feature-Engineering-Part-1.ipynb)
+  * Loads the images from the `images/ProMapEn`
+  * Preprocesses the images
+  * Calculate the perceptual hash (64 bits) of the image 
+  * Hash similarity between two images is calculated using hamming distance with threshold of 0.9
+  * Generates `1` feature and results are stored as `images_test_similarties.csv` and `images_train_similarties.csv` in the `features/ProMapEn/` folder
+
+
+* [Feature-Engineering-Part-2.ipynb](Feature-Engineering-Part-2.ipynb)
+  * Loads the data from the `datasets/ProMapEn`
+  * Preprocesses the textual content
+  * Calculate text similarity using cosine and jaccardian 
+  * Generates 33 features by extracting information from various keywords
+
+* Final Features
+  * Features: 34
+  * Labels: Matching or Non-Matching 
+  * All the features are stored in `promapen_test_similarities.csv` and `promapen_train_similarities.csv` in the `features/ProMapEn/` folder
+
 
 ## 5. Credits
 * Thank you, Prof Dani Yogatama, TAs, CPs for guidance and feedback
