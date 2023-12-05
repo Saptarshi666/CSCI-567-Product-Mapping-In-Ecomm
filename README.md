@@ -88,6 +88,17 @@ Before beginning with feature engineering, cross verify the folder and file plac
   * All the features are stored in `promapen_test_similarities.csv` and `promapen_train_similarities.csv` in the `features/ProMapEn/` folder
 
 
+## 5. Model Building and Selection
+* Utilized both grid search and random search techniques, with 20% validation set, to identify optimal hyperparameters
+* Conducted hyperparameter tuning for linear regression, support vector machines, decision trees, random forests and neural network models.
+* Model selection was based on maximizing the F1 score
+* Best results were obtained by neural network-based models followed by logistic regression and random forests
+* Neural networks have the most balanced precision and recall, while the random forests have larger differences
+
+![alt](images/readme_imgs/ModelSelection.png)
+
+
+
 ## 5. Credits
 * Thank you, Prof Dani Yogatama, TAs, CPs for guidance and feedback
 * [kackamac](https://github.com/kackamac/Product-Mapping-Datasets) Thanks for the wonderful dataset
