@@ -96,7 +96,7 @@ Before beginning with feature engineering, cross verify the folder and file plac
 * Best results were obtained by neural network-based models followed by logistic regression and random forests
 * Neural networks have the most balanced precision and recall, while the random forests have larger differences
 
-<img src="images/readme_imgs/ModelSelection.png" width="350">
+<p align="center"><img src="images/readme_imgs/ModelSelection.png" width="350"></p>
 
 ## 6. Model Evaluation
 * [Evaluation.ipynb](Evaluation.ipynb): Python code
