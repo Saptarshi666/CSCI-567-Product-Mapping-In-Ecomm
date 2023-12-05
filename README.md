@@ -1,24 +1,24 @@
 # CSML-Product-Mapping-Dataset
 
 
-## Objective
+## 1. Objective
 Replicate methods and technologies outlined in the paper to achieve end-to-end results for the ProMapEn dataset.
 
 
-## Preparation
+## 2. Preparation
 
-#### Paracrawl Data Process
+#### 2.1 Paracrawl Data Process
 * Download the [paracrawl](https://web-language-models.s3.us-east-1.amazonaws.com/paracrawl/release9/en-cs/en-cs.txt.gz) dataset (3.9GB zip file)
 * Unzip the file and place the `en-cs.txt` (9.01GB) in the `datasets` folder
 * Create the english vocabulary by running [paracrawl.py](paracrawl.py)
 * Vocab file is created as [english_words.txt](features/english_words.txt) in the `features` folder
 
-#### Image Scraping
+#### 2.2 Image Scraping
 * Run [Scraping.ipynb](Scraping.ipynb) to download the images in real time
 * Alternatively, download the `ProMapEn` folder from [link](https://drive.google.com/drive/folders/1hfqp-LqDahBHWRcAtenxlIlQf0K3yzJH) and place it in the `images` folder
 
 
-## Final Directory Structure
+## 3. Final Directory Structure
 Before beginning with feature engineering, cross verify the folder and file placement as per below directory tree
 
 ```
@@ -66,9 +66,10 @@ Before beginning with feature engineering, cross verify the folder and file plac
 ```
 
 
-## Feature Engineering
+## 4. Feature Engineering
 * insert
 
-## Credits
-[kackamac](https://github.com/kackamac/Product-Mapping-Datasets)
-Thanks for the wonderful dataset
+## 5. Credits
+* Thank you, Prof Dani Yogatama, TAs, CPs for guidance and feedback
+* [kackamac](https://github.com/kackamac/Product-Mapping-Datasets) Thanks for the wonderful dataset
+* Kateřina Macková, Martin Pilát for wonderful paper [Link](https://arxiv.org/pdf/2309.06882.pdf)
