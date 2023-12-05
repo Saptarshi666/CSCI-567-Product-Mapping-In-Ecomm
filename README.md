@@ -89,6 +89,7 @@ Before beginning with feature engineering, cross verify the folder and file plac
 
 
 ## 5. Model Building and Selection
+* [Model-Building-Grid-and-Random-Search-CV.ipynb](Model-Building-Grid-and-Random-Search-CV.ipynb): Python code
 * Utilized both grid search and random search techniques, with 20% validation set, to identify optimal hyperparameters
 * Conducted hyperparameter tuning for linear regression, support vector machines, decision trees, random forests and neural network models.
 * Model selection was based on maximizing the F1 score
@@ -98,8 +99,12 @@ Before beginning with feature engineering, cross verify the folder and file plac
 ![alt](images/readme_imgs/ModelSelection.png)
 
 
+## 6. Model Evaluation
+* [Evaluation.ipynb](Evaluation.ipynb): Python code
+* Transfer learning capabilities were tested by selecting the optimal model of ProMapEn and evaluating it on all other datasets
 
-## 5. Credits
+
+## 7. Credits
 * Thank you, Prof Dani Yogatama, TAs, CPs for guidance and feedback
 * [kackamac](https://github.com/kackamac/Product-Mapping-Datasets) Thanks for the wonderful dataset
 * Kateřina Macková, Martin Pilát for wonderful paper [Link](https://arxiv.org/pdf/2309.06882.pdf)
