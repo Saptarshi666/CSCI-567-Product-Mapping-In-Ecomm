@@ -1,5 +1,4 @@
 old/*
-*.parquet
 .idea/*
 .DS_Store
 images/*
