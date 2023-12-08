@@ -1,8 +1,8 @@
-# CSML-Product-Mapping-Dataset
+# Product Mapping in E-Commerce
 
 
 ## 1. Objective
-Replicate methods and technologies outlined in the paper to achieve end-to-end results for the ProMapEn dataset.
+Implement and replicate methodologies outlined in the paper to achieve end-to-end results for the ProMapEn dataset.
 
 
 ## 2. Preparation
