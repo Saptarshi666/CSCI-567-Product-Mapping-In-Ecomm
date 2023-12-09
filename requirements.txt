@@ -1,0 +1,11 @@
+requests
+pandas
+nltk
+natsort
+numpy
+imagehash
+opencv-python
+pillow
+matplotlib
+scikit-learn
+contractions
